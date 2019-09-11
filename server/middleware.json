@@ -40,6 +40,13 @@
   },
   "parse": {},
   "routes": {
+    "loopback-component-winston#requestLogger": {
+      "params": {
+        "level": "info",
+        "msg": "${res.statusCode} ${req.method} ${res.time}ms ${req.decodedUrl}",
+        "meta": false
+      }
+    },
     "loopback#rest": {
       "paths": [
         "${restApiRoot}"
