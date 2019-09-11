@@ -1,0 +1,21 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "CoffeeShop": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "CoffeeShop": {
+      "1": "{\"name\":\"Cafe Coffee day\",\"location\":\"HSR\",\"id\":1}",
+      "2": "{\"name\":\"Starbucks\",\"location\":\"Koramangla\",\"id\":2}"
+    }
+  }
+}
